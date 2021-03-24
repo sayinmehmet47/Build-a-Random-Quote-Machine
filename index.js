@@ -24,5 +24,7 @@ $('button').on('click', function (e) {
   $('#text').animate({ color: `${bgColor}` }, 1500);
   $('#author1').animate({ color: `${bgColor}` }, 1500);
 
+  updateContent();
+
   e.preventDefault();
 });
