@@ -1,5 +1,5 @@
 @media (max-width: 576px) {
-    body {
+    #quote-box{
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -14,6 +14,11 @@
             display: flex;
            
             justify-content: center;
+        }
+        #new{
+            display: flex;
+           justify-content: center;
+           padding-left: 85px;
         }
 
   }
