@@ -7,6 +7,9 @@ function random_bg_color() {
   return bgColor;
 }
 
+
+
+
 $(document).ready(function () {
   $('#quote-box')
     .parent()
@@ -14,6 +17,12 @@ $(document).ready(function () {
     .css('background-color', `${random_bg_color()}`);
   $('#text').css('color', `${bgColor}`);
   $('#author1').css('color', `${bgColor}`);
+  
+  $('#twitter').attr(
+    'href',
+    'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+      encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
+  );
 });
 
 $('button').on('click', function (e) {
@@ -28,3 +37,37 @@ $('button').on('click', function (e) {
 
   e.preventDefault();
 });
+
+
+
+
+$("#twitter").on("click",function(){
+
+  $('#twitter').attr(
+    'href',
+    'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+      encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
+  );
+
+
+})
+
+
+
+
+
+
+$("#tumblr").on("click",function(){
+ 
+  $('#tumblr').attr(
+    'href',
+    'https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=' +
+      encodeURIComponent(currentAuthor) +
+      '&content=' +
+      encodeURIComponent(currentQuote) +
+      '&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button'
+  );
+
+
+})
+
