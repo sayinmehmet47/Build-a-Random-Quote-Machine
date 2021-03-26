@@ -1,0 +1,20 @@
+@media (max-width: 576px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+        #icons{
+            padding-top: 15px;
+        }
+        #author{
+            display: flex;
+           
+            justify-content: center;
+        }
+
+  }
+

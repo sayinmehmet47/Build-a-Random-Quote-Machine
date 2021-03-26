@@ -9,35 +9,36 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   <link rel="stylesheet" href="index.css">
     <title>Random Quoto Machine</title>
 </head>
 
 <body class="">
 
-    <div class="d-flex justify-content-center mt-5 container">
-        <div class="card shadow m-5" id="quote-box">
+    <div class="d-flex justify-content-center mt-5 container "  id="wrapper">
+        <div class="card shadow m-5 shadow" style="width: 55%;" id="quote-box">
 
-            <div class="card-body ms-2 me-3 mb-4">
-
-                <p class="card-text ms-3 mt-4" style="font-size:25px;" id="text"><i class="fas fa-quote-left"></i> Some
+       
+                <div class="mt-4 ms-4 me-4" style="font-size:25px;" id="text"><i class="fas fa-quote-left"></i> Some
                     quick example text to
                     build
                     on the card title and make up the bulk of the
-                    card's content.</p>
+                    card's content.
+                </div>
                 <div class="p-3" id="author">
                     <p class="float-end border border-rounded p-1 " style="font-size:15px;" id="author1"
                         style="font-size:medium;">- writer
                     </p>
                 </div>
-            </div>
+         
             <div class=" row">
                 <div class="col">
                     <button class="btn btn-primary float-end me-5" id="new-quote">New quote</button>
                 </div>
-                <div class="row mb-4 ms-2">
+                <div class="row mb-4 ms-2" id="icons">
                     <div>
-                        <a class="border border-rounded  p-2" id="twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="border border-rounded ms-1 p-2" id="tumblr"><i class="fab fa-tumblr"></i></a>
+                        <a class="border border-rounded  p-2" id="tweet-quote" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="border border-rounded ms-1 p-2" id="tumblr" href=""><i class="fab fa-tumblr"></i></a>
                     </div>
 
                 </div>

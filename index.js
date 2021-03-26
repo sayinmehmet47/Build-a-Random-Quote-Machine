@@ -18,7 +18,7 @@ $(document).ready(function () {
   $('#text').css('color', `${bgColor}`);
   $('#author1').css('color', `${bgColor}`);
   
-  $('#twitter').attr(
+  $('#tweet-quote').attr(
     'href',
     'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
       encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
@@ -41,9 +41,9 @@ $('button').on('click', function (e) {
 
 
 
-$("#twitter").on("click",function(){
+$("#tweet-quote").on("click",function(){
 
-  $('#twitter').attr(
+  $('#tweet-quote').attr(
     'href',
     'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
       encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
