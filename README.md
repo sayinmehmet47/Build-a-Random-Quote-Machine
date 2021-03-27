@@ -21,7 +21,7 @@ A Random quote machine built with React.
  I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in it's href attribute to tweet the current quote.</br>
  The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
-<ul/>
+</ul>
  
 <h2>Screenshot</h2>
 <hr>
