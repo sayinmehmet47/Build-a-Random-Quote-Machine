@@ -24,4 +24,6 @@ A Random quote machine built with React.
 <ul/>
  
 <h2>Screenshot</h2>
- 
+<hr>
+
+![yeni](https://user-images.githubusercontent.com/75525090/112720525-9dce0600-8f07-11eb-8a69-a715e92ebb4c.png)
